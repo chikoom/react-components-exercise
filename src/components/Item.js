@@ -1,6 +1,6 @@
 import React from 'react'
 
 
-const Item = () => {}
+const Item = () => <div>ITEM COMPONENT</div>
 
 export default Item

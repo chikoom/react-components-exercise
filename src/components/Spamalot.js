@@ -3,7 +3,13 @@ import React, { Component } from 'react';
 
 
 class Spamalot extends Component {
-// your code here...   
+    render(){
+        const spamArray = []
+        for(let i = 0; i < 500; i++){
+            spamArray.push(<Spam />)
+        }
+        return spamArray
+    }
 }
 
 export default Spamalot
